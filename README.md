@@ -1,6 +1,25 @@
-frontend-nanodegree-arcade-game
-===============================
+# Classic Arcade Game: Frogger
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+A simple arcade style game, based on the classic game Frogger.  Move your character from the grass, across the stones, trying to reach the water without colliding with any bugs.  
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+##Table of Contents
+
+* [Instructions](#instructions)
+* [About](#About)
+* [Dependencies](#Dependencies)
+
+##Instructions
+
+To get started, simply open the folder "Classic Arcade Game" and double click on the file index.html.  The game will run immediately upon opening.
+
+Use the arrow keys on your keyboard to move the player around the game board.  Reach 100 points (get to the water 10 times) to win the game.  Your player can collide with the enemy bugs three times before the game resets.  Click 'Play Again' button below the scoreboard to restart the game.  Enjoy!  
+
+##About
+
+Built using HTML5, HTML5 Canvas, CSS3, and all vanilla JavaScript.  Fonts used come from the [Google Fonts](https://fonts.google.com/) library.
+
+This project was a part of the ciriculum for the Front-End Web Development Nanodegre program at [Udacity](https://www.udacity.com/).
+
+##Dependencies
+
+* [Google Fonts](https://fonts.google.com/) library.

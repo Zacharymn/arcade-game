@@ -2,10 +2,33 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Effective JavaScript: Frogger</title>
+    <title>Classic Arcade Game: Frogger</title>
+    <link href="https://fonts.googleapis.com/css?family=Play:400,700|Press+Start+2P" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<h1>Classic Arcade Game</h1>
+	<div class='content'>
+	<section class='scoreboard'>
+		<div class='scoreboard-content'>
+			<h2>Score Board</h2>
+			<span class='score'>Score: 
+				<span class='your-score'>0</span>
+			</span>
+			<span class='lives'>Lives: 
+				<span class='your-lives'>3</span>
+			</span>
+			<p class ='game-messages'>
+				<span class='victory'>You made it!</span>
+				<span class='game-over'>Game Over</span>
+				<span class='you-win'>You Win!</span>
+			</p>
+		</div>
+	</section>
+	<div class='game-buttons'>
+		<button class='play-again-button'>Play Again</button>
+	</div>
+</div>
     <script src="js/resources.js"></script>
     <script src="js/app.js"></script>
     <script src="js/engine.js"></script>

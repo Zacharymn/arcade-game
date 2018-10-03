@@ -1,3 +1,106 @@
 body {
     text-align: center;
+    background: linear-gradient(to right, #74f441, #eef441);
+    font-family: 'Play', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+h1 {
+	margin: 0 0 0 0;
+	padding: 0;
+	font-size: 35px;
+	width: 100%;
+	justify-content: center;
+}
+
+
+
+/***Scoreboard Styles****/
+
+.scoreboard {
+	display: flex;
+	flex-wrap: wrap;
+	background: linear-gradient(#f4c242, white);
+	border: 2px solid black;
+	border-radius: 8px 8px;
+	box-shadow: 1px 1px grey;
+	justify-content: center;
+	margin: 50px 20px 0;
+	height: 100px;
+	width: 400px;
+
+
+}
+
+.score {
+	float: left;
+	margin-bottom: 10px;
+}
+
+.lives {
+	float: right;
+	margin-bottom: 10px;
+	background: none;
+}
+
+.scoreboard-content {
+	width: 40%;
+}
+
+.scoreboard-content h2 {
+	margin: 0;
+	font-size: 26px;
+}
+
+/****Victory & Game Over Message display styles****/
+
+.victory {
+	display: none;
+	background-color: #4ff441;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.game-over {
+	display: none;
+	background: red;
+	margin: 0;
+	font-size: 20px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.you-win {
+	display: none;
+	background: #4ff441;
+	margin: 0;
+	font-size: 20px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.game-buttons button {
+	width: 70px;
+	height: 48px;
+	border-radius: 8px;
+	margin: 1%;
+	background: linear-gradient(#eef441 20%, white );
+	border: 1px solid black;
+	box-shadow: 1px 1px grey;
+	visibility: hidden;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:active {
+	background: white;
+}
+
+
+
+
+
+
